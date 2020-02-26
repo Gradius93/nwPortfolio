@@ -41,7 +41,7 @@ h1, h2 {
 
 h1 {
   font-size: 9rem;
-  color: white;
+  color: black;
 }
 
 h2 {
@@ -110,6 +110,9 @@ img {
   border-bottom: 0.2rem solid white;
 }
 
+#about {
+  height: 100vh;
+}
 
 .work-section {
   text-align: center;
@@ -156,8 +159,11 @@ img {
 }
 
 .contact-section {
-
+  height: 50vh;
   text-align: center;
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 30px;
+  color: black;
   margin: 20px;
 
 }
@@ -168,7 +174,13 @@ img {
   border-bottom: 0.2rem solid white;
 }
 
+i {
+  font-size: 20px;
+  color: black;
+}
+
 .contact-links .btn {
   padding: 20px;
+  color: black;
 
 }
