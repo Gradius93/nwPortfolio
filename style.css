@@ -22,6 +22,15 @@ html {
   html {
     font-size: 55%;
   }
+
+  .about-container {
+    display: block;
+  }
+  .image-div {
+    width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+  }
 }
 
 body {
@@ -110,8 +119,38 @@ img {
   border-bottom: 0.2rem solid white;
 }
 
-#about {
+.about-section {
   height: 100vh;
+}
+
+.about-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid white;
+}
+
+
+.about-container {
+  display: flex;
+  padding-top: 50px;
+
+}
+.image-div {
+  width: 50%;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.image-div img {
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.bio {
+  padding: 50px;
+  width: 75%;
 }
 
 .work-section {
