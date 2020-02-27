@@ -1,3 +1,5 @@
+/* main css */
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -98,7 +100,7 @@ img {
   font-family: 'Indie Flower';
 
 }
-
+/*  welcome */
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -118,6 +120,8 @@ img {
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid white;
 }
+
+/*  about */
 
 .about-section {
   height: 100vh;
@@ -146,12 +150,20 @@ img {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-
-
 .bio {
   padding: 50px;
   width: 75%;
 }
+
+.dos {
+  align-items: center;
+}
+
+.skills i {
+  color: white;
+}
+
+/*  work */
 
 .work-section {
   text-align: center;
@@ -196,6 +208,8 @@ img {
   font-size: 2rem;
 
 }
+
+/*  contact */
 
 .contact-section {
   height: 50vh;
