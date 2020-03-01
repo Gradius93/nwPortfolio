@@ -36,11 +36,11 @@ html {
   html {
     font-size: 55%;
   }
-  body {
-    background: black;
+  .nav-list a {
+    font-size: 10px;
   }
-  .nav {
-    background: black;
+  .about-container {
+    flex-wrap: wrap;
   }
 
 
@@ -95,6 +95,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: rgb(255, 223, 43);
 
 }
 
@@ -107,11 +108,18 @@ img {
 
 .nav-list a {
   display: block;
-  padding-right: 1rem;
+  margin-right: 1.3rem;
+  text-transform: uppercase;
   color: black;
-  font-size: 4rem;
-  font-family: 'Indie Flower';
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 30px;
 
+}
+
+.nav-list a:hover {
+  color: white;
+  border-bottom: 0.2rem solid white;
 }
 /*  welcome */
 #welcome-section {
@@ -119,10 +127,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   width: 100%;
   height: 100vh;
-
 }
 
 #welcome-section p {
@@ -137,8 +143,8 @@ img {
 /*  about */
 
 .about-section {
-  height: 120vh;
-  overflow: auto;
+  height: 140vh;
+  overflow: visible;
 }
 
 .about-section-header {
@@ -155,6 +161,7 @@ img {
 .image-div {
   display: flex;
   justify-content: center;
+  height: 50%;
   width: 50%;
   padding: 50px;
   margin: 0 auto;
@@ -199,8 +206,6 @@ img {
 .skills i {
   color: black;
   font-size: 60px;
-  padding-left: 10px;
-  padding-right: 10px;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -209,7 +214,7 @@ img {
 
 .work-section {
   margin: 0 auto;
-  overflow: auto;
+  overflow: visible;
   height: 150vh;
   text-align: center;
   padding: 10rem 2rem;
